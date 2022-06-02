@@ -1,14 +1,18 @@
 @import url("https://fonts.googleapis.com/css2?family=Arimo:wght@400;700&family=Open+Sans&display=swap");
-.hero-section .hero-content .scroll-bottom, .feature-section .single-feature .icon, .box-style .icon, .footer .widget-wrapper .footer-widget .socials li a {
+
+.hero-section .hero-content .scroll-bottom,
+.feature-section .single-feature .icon,
+.box-style .icon,
+.footer .widget-wrapper .footer-widget .socials li a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 /*===========================
@@ -145,8 +149,8 @@ h1 {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 @media (max-width: 767px) {
@@ -286,11 +290,11 @@ p {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   font-size: 18px;
   color: #fff;
   border-radius: 5px;
@@ -302,7 +306,7 @@ p {
   -webkit-transition: all 0.3s ease-out 0s;
   transition: all 0.3s ease-out 0s;
   -webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-          box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 }
 
 .scroll-top:hover {
@@ -315,10 +319,12 @@ p {
     -webkit-transform: translateY(30px);
     transform: translateY(30px);
   }
+
   50% {
     -webkit-transform: translateY(-30px);
     transform: translateY(-30px);
   }
+
   100% {
     -webkit-transform: translateY(30px);
     transform: translateY(30px);
@@ -330,10 +336,12 @@ p {
     -webkit-transform: translateY(30px);
     transform: translateY(30px);
   }
+
   50% {
     -webkit-transform: translateY(-30px);
     transform: translateY(-30px);
   }
+
   100% {
     -webkit-transform: translateY(30px);
     transform: translateY(30px);
@@ -411,7 +419,7 @@ p {
 
 .preloader .loader .ytp-spinner-circle {
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   position: absolute;
   width: 200%;
   height: 100%;
@@ -458,30 +466,37 @@ p {
     -webkit-transform: rotate(135deg);
     transform: rotate(135deg);
   }
+
   25% {
     -webkit-transform: rotate(270deg);
     transform: rotate(270deg);
   }
+
   37.5% {
     -webkit-transform: rotate(405deg);
     transform: rotate(405deg);
   }
+
   50% {
     -webkit-transform: rotate(540deg);
     transform: rotate(540deg);
   }
+
   62.5% {
     -webkit-transform: rotate(675deg);
     transform: rotate(675deg);
   }
+
   75% {
     -webkit-transform: rotate(810deg);
     transform: rotate(810deg);
   }
+
   87.5% {
     -webkit-transform: rotate(945deg);
     transform: rotate(945deg);
   }
+
   to {
     -webkit-transform: rotate(1080deg);
     transform: rotate(1080deg);
@@ -493,30 +508,37 @@ p {
     -webkit-transform: rotate(135deg);
     transform: rotate(135deg);
   }
+
   25% {
     -webkit-transform: rotate(270deg);
     transform: rotate(270deg);
   }
+
   37.5% {
     -webkit-transform: rotate(405deg);
     transform: rotate(405deg);
   }
+
   50% {
     -webkit-transform: rotate(540deg);
     transform: rotate(540deg);
   }
+
   62.5% {
     -webkit-transform: rotate(675deg);
     transform: rotate(675deg);
   }
+
   75% {
     -webkit-transform: rotate(810deg);
     transform: rotate(810deg);
   }
+
   87.5% {
     -webkit-transform: rotate(945deg);
     transform: rotate(945deg);
   }
+
   to {
     -webkit-transform: rotate(1080deg);
     transform: rotate(1080deg);
@@ -528,10 +550,12 @@ p {
     -webkit-transform: rotate(130deg);
     transform: rotate(130deg);
   }
+
   50% {
     -webkit-transform: rotate(-5deg);
     transform: rotate(-5deg);
   }
+
   to {
     -webkit-transform: rotate(130deg);
     transform: rotate(130deg);
@@ -543,10 +567,12 @@ p {
     -webkit-transform: rotate(130deg);
     transform: rotate(130deg);
   }
+
   50% {
     -webkit-transform: rotate(-5deg);
     transform: rotate(-5deg);
   }
+
   to {
     -webkit-transform: rotate(130deg);
     transform: rotate(130deg);
@@ -558,10 +584,12 @@ p {
     -webkit-transform: rotate(-130deg);
     transform: rotate(-130deg);
   }
+
   50% {
     -webkit-transform: rotate(5deg);
     transform: rotate(5deg);
   }
+
   to {
     -webkit-transform: rotate(-130deg);
     transform: rotate(-130deg);
@@ -573,10 +601,12 @@ p {
     -webkit-transform: rotate(-130deg);
     transform: rotate(-130deg);
   }
+
   50% {
     -webkit-transform: rotate(5deg);
     transform: rotate(5deg);
   }
+
   to {
     -webkit-transform: rotate(-130deg);
     transform: rotate(-130deg);
@@ -599,7 +629,7 @@ p {
   z-index: 99;
   background-color: rgba(255, 255, 255, 0.8);
   -webkit-backdrop-filter: blur(5px);
-          backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
   -webkit-box-shadow: inset 0 -1px 0 0 rgba(0, 0, 0, 0.1);
   box-shadow: inset 0 -1px 0 0 rgba(0, 0, 0, 0.1);
   -webkit-transition: all 0.3s ease-out 0s;
@@ -610,7 +640,8 @@ p {
   padding: 10px 0;
 }
 
-@media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 768px) and (max-width: 991px),
+(max-width: 767px) {
   .sticky .navbar {
     padding: 15px 0;
   }
@@ -637,7 +668,8 @@ p {
   padding: 20px 0;
 }
 
-@media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 768px) and (max-width: 991px),
+(max-width: 767px) {
   .navbar {
     padding: 17px 0;
   }
@@ -688,7 +720,8 @@ p {
   top: -7px;
 }
 
-@media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 768px) and (max-width: 991px),
+(max-width: 767px) {
   .navbar-collapse {
     position: absolute;
     top: 100%;
@@ -701,7 +734,8 @@ p {
   }
 }
 
-@media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 768px) and (max-width: 991px),
+(max-width: 767px) {
   .navbar-nav {
     padding: 20px 30px;
   }
@@ -712,7 +746,8 @@ p {
   margin-left: 40px;
 }
 
-@media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 768px) and (max-width: 991px),
+(max-width: 767px) {
   .navbar-nav .nav-item {
     margin-left: 0px;
   }
@@ -743,14 +778,16 @@ p {
   transition: all 0.3s ease-out 0s;
 }
 
-@media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 768px) and (max-width: 991px),
+(max-width: 767px) {
   .navbar-nav .nav-item a::before {
     top: auto;
     bottom: 0;
   }
 }
 
-@media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 768px) and (max-width: 991px),
+(max-width: 767px) {
   .navbar-nav .nav-item a {
     display: inline-block;
     padding: 6px 0px;
@@ -758,7 +795,8 @@ p {
   }
 }
 
-.navbar-nav .nav-item a:hover::before, .navbar-nav .nav-item a.active::before {
+.navbar-nav .nav-item a:hover::before,
+.navbar-nav .nav-item a.active::before {
   width: 100%;
 }
 
@@ -782,7 +820,8 @@ p {
   margin-bottom: 100px;
 }
 
-@media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 768px) and (max-width: 991px),
+(max-width: 767px) {
   .hero-section .hero-content {
     margin-bottom: 0px;
   }
@@ -819,7 +858,7 @@ p {
 }
 
 .hero-section .hero-content p {
-  margin-bottom: 40px;
+  margin-bottom: 20px;
   font-size: 18px;
   line-height: 28px;
   color: #fff;
@@ -863,14 +902,16 @@ p {
   font-weight: 700;
 }
 
-@media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 768px) and (max-width: 991px),
+(max-width: 767px) {
   .hero-section .hero-img {
     padding-top: 30px;
     padding-bottom: 50px;
   }
 }
 
-@media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 768px) and (max-width: 991px),
+(max-width: 767px) {
   .hero-section .hero-img img {
     width: 100%;
   }
@@ -1085,7 +1126,8 @@ p {
   padding: 75px 0;
 }
 
-@media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 768px) and (max-width: 991px),
+(max-width: 767px) {
   .about-section .about-img {
     margin-bottom: 70px;
   }
@@ -1144,7 +1186,8 @@ p {
   padding: 75px 0;
 }
 
-@media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 768px) and (max-width: 991px),
+(max-width: 767px) {
   .about-section .about-img-2 {
     margin-bottom: 70px;
   }
@@ -1406,8 +1449,8 @@ p {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .footer .widget-wrapper .footer-widget .socials li {
@@ -2167,4 +2210,142 @@ p {
 
 .pb-225 {
   padding-bottom: 225px;
+}
+
+.pricing-section {
+  position: relative;
+  z-index: 1;
+}
+
+.pricing-btn {
+  text-align: center;
+}
+
+.pricing-section .single-pricing .pricing-header {
+  padding-bottom: 35px;
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 45px;
+  text-align: center;
+}
+
+.pricing-section .single-pricing .pricing-header .price {
+  font-size: 45px;
+  margin-bottom: 0px;
+  color: #5864ff;
+}
+
+.pricing-section .single-pricing .pricing-header .price-dull {
+  font-size: 30px;
+  margin-bottom: 0px;
+  color: #5b657e;
+}
+
+.pricing-section .single-pricing .pricing-header .per-month {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #5864ff;
+}
+
+.pricing-section .single-pricing .pricing-header .sales {
+  font-size: 35px;
+  margin-bottom: 40px;
+  color: #5864ff;
+}
+
+.pricing-nav-wrapper ul {
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.pricing-section .pricing-nav-wrapper ul {
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.pricing-section .pricing-nav-wrapper ul li a {
+  font-size: 18px;
+  font-weight: 700;
+  color: #5b657e;
+  padding: 10px 30px;
+  background: rgba(88, 100, 255, .1);
+  margin: 5px;
+  border-radius: 30px;
+}
+
+.pricing-section .pricing-nav-wrapper ul li a.active {
+  color: #fff;
+  background: #5864ff;
+}
+
+.single-pricing {
+  border-radius: 40px;
+  background: #fff;
+  -webkit-box-shadow: 0 0 59px rgb(191 191 191 / 16%);
+  box-shadow: 0 0 59pxrgba(191, 191, 191, .16);
+  padding: 45px 30px;
+  margin-bottom: 30px;
+}
+
+.pricing-section .single-pricing .content ul li {
+  font-size: 18px;
+  margin-bottom: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.pricing-section .single-pricing .content ul li i.active {
+  color: #5864ff;
+}
+
+.pricing-section .single-pricing .content ul li i {
+  margin-right: 15px;
+  color: rgba(22, 36, 71, .3);
+  font-weight: 700;
+}
+
+.pricing-section .single-pricing .content {
+  margin-bottom: 30px;
+}
+
+s,
+strike {
+  text-decoration: none;
+  position: relative;
+}
+
+s::before,
+strike::before {
+  top: 50%;
+  /*tweak this to adjust the vertical position if it's off a bit due to your font family */
+  background: red;
+  /*this is the color of the line*/
+  opacity: .7;
+  content: '';
+  width: 110%;
+  position: absolute;
+  height: .1em;
+  border-radius: .1em;
+  left: -5%;
+  white-space: nowrap;
+  display: block;
+  transform: rotate(-15deg);
+}
+
+s.straight::before,
+strike.straight::before {
+  transform: rotate(0deg);
+  left: -1%;
+  width: 102%;
 }
