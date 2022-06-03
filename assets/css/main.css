@@ -55,6 +55,13 @@ a:hover {
   color: #5864FF;
 }
 
+.stackmi-link:hover {
+  background: #fff;
+  padding: 1rem;
+  border: 1px solid #5864FF;
+  border-radius: 50%;
+}
+
 a {
   -webkit-transition: all 0.3s ease-out 0s;
   transition: all 0.3s ease-out 0s;
