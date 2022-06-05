@@ -62,6 +62,18 @@ a:hover {
   border-radius: 50%;
 }
 
+.footer-stackmi {
+  color: #fff;
+  font-weight: bold;
+}
+
+.footer-stackmi:hover {
+  background: #fff;
+  padding: 1rem;
+  border: 1px solid #5864FF;
+  border-radius: 50%;
+}
+
 a {
   -webkit-transition: all 0.3s ease-out 0s;
   transition: all 0.3s ease-out 0s;
